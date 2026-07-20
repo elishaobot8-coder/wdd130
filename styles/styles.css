@@ -16,7 +16,12 @@ nav a {
 }
 
 h1 {
+  margin-bottom: 20px;
   color: steelblue;
+}
+
+p {
+  margin-top: 0;
 }
 
 main {
@@ -25,7 +30,7 @@ main {
 }
 
 main img {
-  width: 150px;
+  width: 145px;
   height: auto;
   border: 1px solid steelblue;
   padding: 2px;

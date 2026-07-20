@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+}
+
+header {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.logo {
+  width: 90px;
+}
+
+nav ul {
+  list-style: disc;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+nav li {
+  margin: 8px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #003399;
+}
+
+.hero {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 51, 153, .8);
+  color: white;
+  padding: 15px;
+  font-size: 40px;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: rgba(0, 51, 153, .7);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero article p {
+  width: 75%;
+}
+
+.hero article img {
+  width: 120px;
+  border: 3px solid white;
+}
+
+.history,
+.adventure {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.history h2,
+.adventure h2 {
+  background: #003399;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.history p {
+  line-height: 1.6;
+}
+
+footer {
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social img {
+  width: 40px;
+  margin-left: 10px;
