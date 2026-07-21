@@ -65,6 +65,7 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  float: right;
 }
 
 .hero article p {
@@ -106,3 +107,18 @@ footer {
 .social img {
   width: 40px;
   margin-left: 10px;
+
+  :root {
+    --primary-color: #0B4F6C;
+    --secondary-color: #01BAEF;
+    --accent1-color: #FBFBFF;
+    --accent2-color: #20BF55;
+
+    --heading-font: "Georgia", serif;
+    --body-font: "Arial", sans-serif;
+
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: white;
+    --nav-hover-link-color: black;
+    --nav-hover-background-color: var(--secondary-color);
+  }
