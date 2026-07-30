@@ -132,22 +132,22 @@
  .adventure {
    background-color: #003399;
    color: white;
-   padding: 10px;
+   padding: 20px;
  }
 
  .history h2 {
    background: #003399;
    color: white;
    text-align: center;
-   padding: 5px;
-   margin-bottom: 20px;
+   padding: 20px;
+   margin-bottom: 25px;
  }
 
  .history p {
    line-height: 1.6;
  }
 
- .adventure h2 {
+ .adventure {
    margin-bottom: 20px;
    text-align: center;
  }
@@ -181,11 +181,10 @@
 
  footer {
    width: 80%;
-   margin: auto;
+   margin: 40px auto;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   text-align: center;
 
  }
 
