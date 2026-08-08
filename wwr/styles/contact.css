@@ -1,0 +1,392 @@
+/* =========================
+   GENERAL PAGE STYLING
+========================= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background-color: white;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+  width: 92%;
+  margin: 25px auto 0;
+  background-color: blue;
+  border: 2px solid #777;
+  height: 180px;
+}
+
+.header-content {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+
+.logo {
+  width: 150px;
+  height: 135px;
+  object-fit: contain;
+}
+
+/* NAVIGATION */
+
+nav {
+  display: flex;
+  margin-right: 7%;
+}
+
+nav a {
+  width: 145px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+
+  border: 1px solid #777;
+
+  color: #222;
+  text-decoration: none;
+
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #eeeeee;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+main {
+  width: 92%;
+  margin: 0 auto;
+}
+
+/* =========================
+   COMPANY INFORMATION
+========================= */
+
+.company-info {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.company-info h1 {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0 0 8px;
+}
+
+.company-info p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+/* =========================
+   CONTACT AREA
+========================= */
+
+.contact-area {
+  width: 88%;
+  margin: 0 auto 35px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+
+  align-items: start;
+}
+
+/* =========================
+   MAP
+========================= */
+
+.map {
+  width: 100%;
+  height: 420px;
+}
+
+.map img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  border: 2px solid #bbb;
+}
+
+/* =========================
+   CONTACT FORM
+========================= */
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-form form {
+  width: 100%;
+}
+
+/* NAME AND EMAIL */
+
+.form-row {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+
+  align-items: center;
+
+  margin-bottom: 12px;
+}
+
+.form-row label {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.form-row input {
+  height: 42px;
+
+  border: 2px solid #aaa;
+  border-radius: 5px;
+
+  padding: 8px 12px;
+
+  font-size: 16px;
+}
+
+/* =========================
+   RADIO BUTTONS
+========================= */
+
+fieldset {
+  border: none;
+  padding: 5px 0 10px 100px;
+  margin: 0;
+}
+
+fieldset legend {
+  position: absolute;
+
+  margin-left: -100px;
+
+  font-weight: bold;
+  font-size: 17px;
+}
+
+fieldset label {
+  display: block;
+
+  margin-bottom: 12px;
+
+  font-size: 17px;
+}
+
+fieldset input {
+  margin-right: 10px;
+}
+
+/* =========================
+   MESSAGE
+========================= */
+
+.message {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+
+  margin-top: 5px;
+}
+
+.message label {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+textarea {
+  height: 85px;
+
+  resize: none;
+
+  border: 2px solid #aaa;
+  border-radius: 5px;
+
+  padding: 10px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* =========================
+   NEWSLETTER
+========================= */
+
+.newsletter {
+  display: block;
+
+  margin-top: 12px;
+  margin-left: 100px;
+
+  font-size: 16px;
+}
+
+.newsletter input {
+  width: 19px;
+  height: 19px;
+
+  vertical-align: middle;
+
+  margin-right: 8px;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+  width: calc(100% - 100px);
+
+  margin-left: 100px;
+  margin-top: 12px;
+
+  height: 45px;
+
+  background-color: #eeeeee;
+
+  border: 2px solid #aaa;
+  border-radius: 5px;
+
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #dddddd;
+}
+
+/* =========================
+   EMPLOYEE SECTION
+========================= */
+
+.employees {
+  width: 96%;
+
+  margin: 0 auto 12px;
+
+  border: 2px solid #777;
+
+  padding: 10px 30px 25px;
+}
+
+.employees h2 {
+  text-align: center;
+
+  font-size: 30px;
+
+  margin: 0 0 10px;
+}
+
+/* EMPLOYEE CONTAINER */
+
+.employee-container {
+  display: flex;
+
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+/* EMPLOYEE FIGURES */
+
+.employee-container figure {
+  margin: 0;
+
+  text-align: center;
+}
+
+.employee-container img {
+  width: 135px;
+  height: 110px;
+
+  object-fit: cover;
+}
+
+.employee-container figcaption {
+  font-size: 17px;
+  font-weight: bold;
+
+  margin-top: 5px;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  width: 92%;
+
+  margin: 0 auto 30px;
+
+  min-height: 85px;
+
+  background-color: blue;
+
+  border: 2px solid yellowgreen;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  position: relative;
+}
+
+footer p {
+  margin: 0;
+
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* SOCIAL MEDIA */
+
+.social-media {
+  position: absolute;
+
+  right: 40px;
+
+  display: flex;
+
+  gap: 15px;
+}
+
+.social-media a {
+  display: block;
+}
+
+.social-media img {
+  width: 50px;
+  height: 50px;
+
+  object-fit: contain;
+}
